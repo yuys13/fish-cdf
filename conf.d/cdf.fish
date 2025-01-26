@@ -27,5 +27,6 @@ function _cdf_uninstall --on-event cdf_uninstall
 
     functions --erase _cdf_install
     functions --erase __cdf_chpwd_recent_dirs
+    functions --erase __cdf_clean_chpwd_recent_dirs
     functions --erase _cdf_uninstall
 end
